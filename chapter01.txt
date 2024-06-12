@@ -1,0 +1,47 @@
+1. 클라우드 개요
+리전 및  AZ(가용역역)
+
+AWS Regions
+AWS Availablity Zone
+AWS Data Centers
+AWS Edge Locations / Points of Presence
+
+https://infrastructure.aws
+
+리전은 us-east-1 or eu-west-3
+데이터 센터의 집합이다.
+
+신규 어플리케이션은 출시하는 경우 리전 선택은 상황에 따라 다르다.
+
+선택 조건
+1.법률준수
+
+2. 지연시간 줄어드는 곳
+
+3. 일부리전에만 있는 서비스가 있다.
+그러므로 리전에 서비스가 있는지 확인해야함.
+
+4. 요금 체계가 다르다 리전마다.
+
+가용영역은 리전 내에만 있음.
+
+각각의 리전은 많은 가용영역이 존재.
+보통은3개 최소 3개 최대 6개
+
+시드니 리전을 예로 들면,
+시드니 리전은 ap-southeast-2
+
+데이터 센터 하나당 (여분의 전원 네트워킹, 통신 기능을 가지고 있음)
+1. ap-southeast-2a ( 2개의 데이터 센터 )
+2. ap-southeast-2b ( 2개의 데이터 센터 )
+3. ap-southeast-2c ( 2개의 데이터 센터 )
+
+위의 각 리전의 데이터센터들은 높은 대역폭 초저지연 네트워킹으로 서로 연결되어있음.
+
+전송지점, 엣지 로케이션
+
+AWS IAM,
+Route 53,
+CloudFront
+
+
